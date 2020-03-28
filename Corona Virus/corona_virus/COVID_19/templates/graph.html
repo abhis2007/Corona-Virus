@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script>
+window.onload = function () {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+
+	title:{
+		text:"Coutry Affected By Corona Virus"
+	},
+	axisX:{
+		interval: 2
+	},
+	axisY2:{
+		interlacedColor: "rgba(1,77,101,.2)",
+		gridColor: "rgba(1,77,101,.1)",
+		title: "Number Of Cities."
+	},
+	data: [{
+		type: "bar",
+		name: "companies",
+		axisYType: "secondary",
+		color: "#014D65",
+		dataPoints: [
+			{ y: 2985, label: "Australia" },
+			{ y: 2806, label: "sweden" },
+			{ y: 2433, label: "Brazil" },
+			{ y: 2062, label: "Czechina" },
+			{ y: 2031, label: "malaysia" },
+			{ y: 1877, label: "Denmark" },
+			{ y: 802, label: "Iceland" },
+			{ y: 624, label: "India" },
+			{ y: 707, label: "Philiphines" },
+			{ y: 558, label: "Singapore" },
+			{ y: 549, label: "Qatar" },
+			{ y: 538, label: "Estonia" },
+			{ y: 1819, label: "Ireland" },
+			{ y: 1453, label: "Australia" },
+			{ y: 1387, label: "Luxembourg" },
+			{ y: 1387, label: "Japan" },
+			{ y: 587, label: "Peru" },
+			{ y: 558, label: "Panama" },
+			{ y: 557, label: "Solovenia" },
+			{ y: 1306, label: "Chile" },
+			{ y: 1222, label: "Poland" },
+			{ y: 1211, label: "Ecuador" },
+			{ y: 1197, label: "Pakistan" },
+			{ y: 1136, label: "Thailand" },
+			{ y: 106, label: "Srilanka" },
+			{ y: 98, label: "Cambodia" },
+			{ y: 1104, label: "Soud" },
+			{ y: 1046, label: "Indonesia" },
+			{ y: 1036, label: "Russia federation" },
+			{ y: 1029, label: "Romania" },
+			{ y: 958, label: "Finland" },
+			{ y: 927, label: "South Africa" },
+			{ y: 502, label: "Argentina" },
+			{ y: 495, label: "Solovenia" },
+			{ y: 495, label: "Croatia" },
+			{ y: 495, label: "Egypt" },
+		]
+	}]
+});
+chart.render();
+
+}
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 550px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+</html>

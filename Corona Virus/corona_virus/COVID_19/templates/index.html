@@ -1,0 +1,76 @@
+{% extends "basic.html" %}
+{% block title %}COVID-19 UPDATES{% endblock %}
+{% block style %}
+hr {
+  border-style: inset;
+  border-width: 2px;
+  border: 2px solid blue;
+border-radius:20px;
+}
+.txt{
+font-size: 17px;
+font-family: 'PT Serif', serif;
+}
+{% endblock %}
+{% block body %}
+
+<div class="row ">
+    <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xs-1"></div>
+    <h2>Covid - 19</h2>
+</div>
+<div class="row ml-4">
+    <div id="active" class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xs-3 h4 text-center ml-5">What?</div>
+    <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xs-3 h4 text-center ml-5">Prevention</div>
+    <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xs-3 h4 text-center ml-2">Symptoms</div>
+</div>
+<div class="row ml-5">
+    <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xs-1"></div>
+    <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xs-3 h4 text-center ">
+        <a href="/index"><hr></a>
+    </div>
+    <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xs-3 h4 text-center ">
+        <a href="/prevention"><hr></a>
+    </div>
+    <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xs-3 h4 text-center ">
+        <a href="/symptoms"><hr></a>
+    </div>
+</div>
+<div class="row ml-2">
+        Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.<br><br>
+        Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and
+        recover without requiring special treatment.  Older people, and those with underlying medical problems
+        like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop
+        serious illness.<br><br>
+        The best way to prevent and slow down transmission is be well informed about the COVID-19 virus, the disease
+        it causes and how it spreads. Protect yourself and others from infection by washing your hands or using an
+        alcohol based rub frequently and not touching your face.<br><br>
+        The COVID-19 virus spreads primarily through droplets of saliva or discharge from the nose when an infected
+        person coughs or sneezes, so it’s important that you also practice respiratory etiquette (for example, by
+        coughing into a flexed elbow).<br><br>
+
+        At this time, there are no specific vaccines or treatments for COVID-19. However, there are many ongoing clinical
+        trials evaluating potential treatments. WHO will continue to provide updated information as soon as clinical findings
+        become available.<br><br>
+
+    <!--<div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xs-2 h4 txt">-->
+        <!--<details>-->
+            <!--<summary><span class="h5"><i>Stay Safe At your home</i></span></summary>-->
+            <!--<hr>-->
+            <!--<div class="txt">-->
+            <!--It’s very important that you stay at home if you have symptoms that may be caused by COVID-19 or you live with someone-->
+                <!--that has symptoms. Household isolation will help to control the spread of the virus to friends, the wider community-->
+                <!--and the most vulnerable.<br><br>-->
+            <!--</div>-->
+        <!--</details>-->
+        <!--<details>-->
+            <!--<summary><span class="h5"><i>Goverment For Public</i></span></summary>-->
+            <!--<hr>-->
+            <!--<div class="txt">-->
+            <!--More state goverment started providing daily basis fooding to poor public so that poor people can survive at their current-->
+            <!--position under Lock-down of 21 days.<br><br>-->
+            <!--</div>-->
+        <!--</details>-->
+        <!--<iframe class="mt-2" width="350" height="315" src="https://www.youtube.com/embed/qF42gZVm1Bo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+    <!--</div>-->
+</div>
+{% endblock %}
